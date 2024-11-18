@@ -33,3 +33,26 @@
 - Utilities to set `scrollbar-gutter` with values like `auto`, `stable`, `stable-both`, `inherit`, and `initial`.
 - Utilities to set `scrollbar-width` with values like `auto`, `thin`, and `none`.
 - Custom scrollbar foreground and background colors using `scrollbar-fg` and `scrollbar-bg` utilities, supporting all colors from the Tailwind CSS color palette.
+
+### Preconfiguration
+
+- `firefox`: Scrollbar in firefox's like style
+
+inside the `tailwind.config.js`
+
+```js
+plugins: [require('@ayato-san/tailwind-scrollbar/preconfigured/<name>')]
+```
+
+#### customize preconfiguration
+
+```js
+theme: {
+  scrollbar: {
+    size: '10px', // the width or height of the scrollbar
+    padding: '2px', // the padding between the scrollbar and the border
+    background: { default: '#f0f0f0', hover: '#f4f4f4' }, // the scrollbar tack color
+    foreground: { default: '#bfbfbf', hover: '#a6a6a6' }, // the scrollbar thumb color
+  }
+}
+```

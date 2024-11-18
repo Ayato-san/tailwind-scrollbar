@@ -24,11 +24,17 @@
       "types": "./build/default/index.d.ts",
       "import": "./build/default/index.js",
       "require": "./build/default/index.cjs"
+    },
+    "./preconfigured/firefox": {
+      "types": "./build/preconfigured/firefox.d.ts",
+      "import": "./build/preconfigured/firefox.js",
+      "require": "./build/preconfigured/firefox.cjs"
     }
   },
   "files": [
     "build/default",
-    "build/lib"
+    "build/lib",
+    "build/preconfigured"
   ],
   "scripts": {
     "lint": "eslint .",
