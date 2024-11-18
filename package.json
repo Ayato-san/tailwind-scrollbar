@@ -1,7 +1,7 @@
 {
   "name": "@ayato-san/tailwind-scrollbar",
   "type": "module",
-  "version": "2.1.1",
+  "version": "0.0.0",
   "description": "A tailwind plugin that provides utilities for styling scrollbars.",
   "author": "Ayato-san <ayatosan.pro@gmail.com>",
   "license": "MIT",
@@ -18,6 +18,17 @@
     "tailwindcss",
     "css",
     "plugin"
+  ],
+  "exports": {
+    ".": {
+      "types": "./build/default/index.d.ts",
+      "import": "./build/default/index.js",
+      "require": "./build/default/index.cjs"
+    }
+  },
+  "files": [
+    "build/default",
+    "build/lib"
   ],
   "scripts": {
     "lint": "eslint .",
