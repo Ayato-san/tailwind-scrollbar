@@ -1,0 +1,8 @@
+{
+  "extends": "@ayato-san/tooling-configs/tsconfig.package",
+  "module": "ES6",
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "./build"
+  }
+}

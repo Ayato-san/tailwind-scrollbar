@@ -1,0 +1,60 @@
+{
+  "name": "@ayato-san/tailwind-scrollbar",
+  "type": "module",
+  "version": "2.1.1",
+  "description": "A tailwind plugin that provides utilities for styling scrollbars.",
+  "author": "Ayato-san <ayatosan.pro@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Ayato-san/tailwind-scrollbar#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayato-san/tailwind-scrollbar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ayato-san/tailwind-scrollbar/issues"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "css",
+    "plugin"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit",
+    "prebuild": "npm run format && npm run lint:fix",
+    "build": "tsup",
+    "postbuild": "find ./build -name '*.cts' -type f -delete",
+    "prepublishOnly": "npm run build",
+    "release": "npx release-it"
+  },
+  "devDependencies": {
+    "@ayato-san/tooling-configs": "^2.0.2",
+    "@types/node": "^22.5.5",
+    "eslint": "^9.10.0",
+    "prettier": "^3.3.3",
+    "release-it": "^17.6.0",
+    "tailwindcss": "^3.4.11",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  },
+  "prettier": "@ayato-san/tooling-configs/prettier/default",
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore(release): ${version}",
+      "tagAnnotation": "v${version}",
+      "tagName": "v${version}"
+    },
+    "github": {
+      "release": true,
+      "releaseName": "v${version}",
+      "web": true
+    }
+  }
+}
