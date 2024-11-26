@@ -1,7 +1,7 @@
 {
   "name": "@ayato-san/tailwind-scrollbar",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A tailwind plugin that provides utilities for styling scrollbars.",
   "author": "Ayato-san <ayatosan.pro@gmail.com>",
   "license": "MIT",
