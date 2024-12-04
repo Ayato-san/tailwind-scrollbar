@@ -3,8 +3,8 @@
   <h1>Tailwind Scrollbar</h1>
   <p>A tailwind plugin that provides utilities for styling scrollbars.</p>
   <div>
-    <a href="https://github.com/Ayato-san/tailwind-scrollbar/blob/main/LICENSE.md"><img alt="GitHub License" src="https://img.shields.io/github/license/Ayato-san/tailwind-scrollbar?style=for-the-badge"></a>
-    <a href="#"><img alt="NPM Version" src="https://img.shields.io/github/package-json/version/Ayato-san/tailwind-scrollbar?style=for-the-badge"></a>
+    <a href="https://github.com/Ayato-san/tailwind-scrollbar/blob/1.x/LICENSE.md"><img alt="GitHub License" src="https://img.shields.io/github/license/Ayato-san/tailwind-scrollbar?style=for-the-badge"></a>
+    <a href="https://github.com/Ayato-san/tailwind-scrollbar/releases/latest"><img alt="NPM Version" src="https://img.shields.io/github/package-json/version/Ayato-san/tailwind-scrollbar?style=for-the-badge"></a>
     <a href="https://github.com/Ayato-san/tailwind-scrollbar/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/Ayato-san/tailwind-scrollbar?style=for-the-badge"></a>
     <a href="#"><img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Ayato-san/tailwind-scrollbar?style=for-the-badge"></a>
   </div>
