@@ -1,6 +1,14 @@
-<p align="center">
+<div align="center">
   <img src="https://github.com/user-attachments/assets/8cafb40e-4d62-4c38-babe-82e44449496d">
-</p>
+  <h1>Tailwind Scrollbar</h1>
+  <p>A tailwind plugin that provides utilities for styling scrollbars.</p>
+  <div>
+    <a href="https://github.com/Ayato-san/tailwind-scrollbar/blob/main/LICENSE.md"><img alt="GitHub License" src="https://img.shields.io/github/license/Ayato-san/tailwind-scrollbar?style=for-the-badge"></a>
+    <a href="#"><img alt="NPM Version" src="https://img.shields.io/github/package-json/version/Ayato-san/tailwind-scrollbar?style=for-the-badge"></a>
+    <a href="https://github.com/Ayato-san/tailwind-scrollbar/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/Ayato-san/tailwind-scrollbar?style=for-the-badge"></a>
+    <a href="#"><img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Ayato-san/tailwind-scrollbar?style=for-the-badge"></a>
+  </div>
+</div>
 
 ## Features
 
@@ -9,23 +17,21 @@
 - Utilities for setting `scrollbar-width` with different options.
 - Custom scrollbar colors using `scrollbar-fg` and `scrollbar-bg` utilities.
 
-### Install
+### Installation
 
-- with NPM
-
-  ```bash
-  npm install -D tailwindcss @ayato-san/tailwind-scrollbar
+- with npm
+  ```sh
+  npm install @ayato-san/tailwind-scrollbar
   ```
 
 - with pnpm
-
-  ```bash
-  pnpm add -D tailwindcss @ayato-san/tailwind-scrollbar
+  ```sh
+  pnpm add @ayato-san/tailwind-scrollbar
   ```
 
 - with yarn
-  ```bash
-  yarn add -D tailwindcss @ayato-san/tailwind-scrollbar
+  ```sh
+  yarn add @ayato-san/tailwind-scrollbar
   ```
 
 ### Utilities
