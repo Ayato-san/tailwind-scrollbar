@@ -26,7 +26,7 @@
 
 - with pnpm
   ```sh
-  pnpm add @ayato-san/tailwind-scrollbar
+  pnpm install @ayato-san/tailwind-scrollbar
   ```
 
 - with yarn
